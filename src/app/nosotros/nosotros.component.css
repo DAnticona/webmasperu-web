@@ -1,0 +1,294 @@
+.nosotros {
+    width: 100%;
+    max-width: 1920px;
+    background: #fff;
+    margin: auto;
+}
+
+.nosotros .portada {
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+.nosotros .portada img {
+    width: 100%;
+    opacity: .2;
+}
+
+.nosotros .portada .titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nosotros .portada .titulo h1 {
+    color: #fff;
+    text-shadow: 0px 0px 7px;
+}
+
+.nosotros .acerca-nosotros {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nosotros .acerca-nosotros .texto {
+    width: 50%;
+}
+
+.nosotros .acerca-nosotros .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.nosotros .acerca-nosotros .texto p{
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+.nosotros .acerca-nosotros .imagen {
+    width: 50%;
+    text-align: right;
+}
+
+.nosotros .acerca-nosotros .imagen img {
+    width: 300px;
+}
+
+/* FRASES 1*/
+
+.frase1 {
+    width: 100%;
+    text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    background: #0097d6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* NUESTRA MISION */
+
+.nosotros .mision {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nosotros .mision .imagen {
+    width: 50%;
+    text-align: left;
+}
+
+.nosotros .mision .imagen img {
+    width: 300px;
+}
+
+.nosotros .mision .texto {
+    width: 50%;
+}
+
+.nosotros .mision .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.nosotros .mision .texto p{
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+/* FRASES */
+.nosotros .frase2 {
+    width: 100%;
+    text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    background: #375e7c;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* NUESTRA VISION */
+.nosotros .vision {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nosotros .vision .imagen {
+    width: 50%;
+    text-align: right;
+}
+
+.nosotros .vision .imagen img {
+    width: 300px;
+}
+
+.nosotros .vision .texto {
+    width: 50%;
+}
+
+.nosotros .vision .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.nosotros .vision .texto p{
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+
+    /* NOSOTROS */
+    .nosotros .acerca-nosotros {
+        width: 90%;
+    }
+    
+    .nosotros .acerca-nosotros .texto h4 {
+        font-size: 16pt;
+    }
+    
+    .nosotros .acerca-nosotros .texto p{
+        font-size: 12pt;
+    }
+
+    .nosotros .frase h1 {
+        font-size: 18pt;
+    }
+
+    /* NUESTRA MISION */
+    .nosotros .mision {
+        width: 90%;
+    }
+
+    .nosotros .mision .texto h4 {
+        font-size: 16pt;
+    }
+
+    .nosotros .mision .texto p{
+        font-size: 12pt;
+    }
+
+    /* NUESTRA VISION */
+    .nosotros .vision {
+        width: 90%;
+
+    }
+
+    .nosotros .vision .imagen {
+        width: 50%;
+        text-align: right;
+    }
+
+    .nosotros .vision .texto h4 {
+        font-size: 16pt;
+    }
+
+    .nosotros .vision .texto p{
+        font-size: 12pt;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /* NOSOTROS */
+    .nosotros .acerca-nosotros {
+        display: block;
+        margin: auto;
+    }
+
+    .nosotros .acerca-nosotros .texto {
+        width: 100%
+    }
+
+    .nosotros .acerca-nosotros .imagen {
+        text-align: center;
+        width: 100%
+    }
+
+    .nosotros .acerca-nosotros .imagen img {
+        width: 200px;
+    }
+
+    .nosotros .frase h1 {
+        font-size: 16pt;
+    }
+
+    /* NUESTRA MISION */
+    .nosotros .mision {
+        display: block;
+        margin: auto;
+    }
+
+    .nosotros .mision .texto {
+        width: 100%;
+    }
+
+    .nosotros .mision .imagen {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .nosotros .mision .imagen img {
+        width: 200px;
+    }
+
+    /* NUESTRA VISION */
+    .nosotros .vision {
+        display: block;
+        margin: auto;
+    }
+
+    .nosotros .vision .texto {
+        width: 100%;
+    }
+
+    .nosotros .vision .imagen {
+        width: 100%;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .nosotros .vision .imagen img {
+        width: 200px;
+    }
+
+}

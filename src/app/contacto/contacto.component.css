@@ -1,0 +1,106 @@
+/* CONTACTO */
+.contacto-inicio {
+    padding: 40px 0;
+    width: 100%;
+    background: #d1d3d3;
+}
+
+.contacto-inicio h4 {
+    color: #002144;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.contacto-inicio .contacto-inicio-txt {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.contacto-inicio .contacto-inicio-txt .formulario {
+    width: 50%;
+    color: #000;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos {
+    width: 50%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contacto {
+    color: #000;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contacto ul li {
+    list-style: none;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contacto ul li span {
+    margin-right: 10px;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contacto ul li a {
+    color: #000;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contacto>span {
+    margin-right: 20px;
+    font-size: 20pt;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contacto span a {
+    color: #000;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contacto span a:hover {
+    opacity: 1;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contenedor-mapa {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+.contacto-inicio .contacto-inicio-txt .datos .contenedor-mapa .mapa {
+    height: 100%;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+    .contacto-inicio .contacto-inicio-txt {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* CONTACTO */
+    .contacto-inicio .contacto-inicio-txt {
+        display: block;
+    }
+        
+    .contacto-inicio .contacto-inicio-txt .formulario {
+        width: 90%;
+        margin: auto;
+    }
+        
+    .contacto-inicio .contacto-inicio-txt .datos {
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+        
+    .contacto-inicio .contacto-inicio-txt .datos .contenedor-mapa {
+        margin-top: 20px;
+    }
+}

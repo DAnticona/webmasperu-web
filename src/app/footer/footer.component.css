@@ -1,0 +1,134 @@
+.footer {
+    width: 100%;
+    max-width: 1920px;
+    background: #232323;
+    padding-top: 20px;
+    margin: auto;
+    font-size: 10pt;
+}
+.subfooter {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.subfooter .menu-footer {
+    color: #f2f2f2;
+}
+
+.subfooter .menu-footer p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.subfooter .menu-footer ul li {
+    list-style: square;
+    margin-left: 30px;
+}
+
+.subfooter .menu-footer ul li a {
+    color: #f2f2f2;
+}
+
+.subfooter .social-footer {
+    justify-self: center;
+}
+
+.subfooter .social-footer p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.subfooter .social-footer .iconos-redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.subfooter .social-footer .iconos-redes span a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20pt;
+
+}
+
+.subfooter .social-footer .iconos-redes span .icon-facebook:hover{
+    padding: 5px;
+    background: #4267B2;
+}
+
+.subfooter .social-footer .iconos-redes span .icon-instagram:hover{
+    padding: 5px;
+    color: #DB5A65;
+}
+
+.subfooter .social-footer .iconos-redes span .icon-linkedin:hover{
+    padding: 5px;
+    background: #0077B5;
+}
+
+.subfooter .contacto-footer p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.subfooter .contacto-footer ul li {
+    list-style: none;
+    color: #f2f2f2;
+    margin-left: 30px;
+}
+
+.subfooter .contacto-footer ul li a {
+    color: #f2f2f2;
+}
+
+.subfooter .contacto-footer ul li span {
+    margin-right: 10px;
+}
+
+.footer .desarrollado-por {
+    width: 80%;
+    color: #999999;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.footer .desarrollado-por a {
+    color: #999999;
+}
+
+.footer .desarrollado-por a:hover {
+    color: #f2f2f2;
+}
+
+@media screen and (max-width: 1024px) {
+    .subfooter {
+        width: 90%;
+        font-size: 8pt;
+    }
+
+    .footer .desarrollado-por {
+        width: 90%;
+        font-size: 8pt;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .subfooter {
+        font-size: 10pt;
+    }
+
+    .subfooter .menu-footer {
+        display: none;
+    }
+
+    .subfooter .social-footer span a{
+        font-size: 12pt;
+    }
+}

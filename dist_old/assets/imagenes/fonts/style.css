@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'webmas';
+  src:  url('webmas.eot?s0vmim');
+  src:  url('webmas.eot?s0vmim#iefix') format('embedded-opentype'),
+    url('webmas.ttf?s0vmim') format('truetype'),
+    url('webmas.woff?s0vmim') format('woff'),
+    url('webmas.svg?s0vmim#webmas') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webmas' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\f015";
+}
+.icon-plane:before {
+  content: "\f072";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-truck:before {
+  content: "\f0d1";
+}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
+.icon-cubes:before {
+  content: "\f1b3";
+}
+.icon-ship:before {
+  content: "\f21a";
+}
+.icon-envelope:before {
+  content: "\e900";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-instagram1:before {
+  content: "\e905";
+  color: #e4405f;
+}
+.icon-googleplus:before {
+  content: "\e901";
+  color: #dc4e41;
+}
+.icon-facebook1:before {
+  content: "\e903";
+  color: #3b5998;
+}
+.icon-linkedin1:before {
+  content: "\e904";
+  color: #0077b5;
+}
+.icon-twitter1:before {
+  content: "\e902";
+  color: #1da1f2;
+}

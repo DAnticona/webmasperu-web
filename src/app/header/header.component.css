@@ -1,0 +1,151 @@
+.header {
+    width: 100%;
+    max-width: 1920px;
+    border-bottom: 3px solid #3a3a38;
+    margin: auto;
+    background: #fff;
+}
+
+.subheader {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+}
+
+.barra-menu {
+    display: none;
+}
+
+.menu2 {
+    display: none;
+}
+
+.logo {
+    width: 30%;
+    text-align: right;
+}
+
+.logo img {
+    width: 70px;
+    max-width: 100px;
+}
+
+.menu {
+    width: 70%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu nav {
+    width: 100%;
+}
+
+.menu nav ul {
+    width: 100%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.menu nav ul li {
+    list-style: none;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #002144;
+    font-weight: bold;
+}
+
+.menu nav ul li a.active {
+    color: #0097d6;
+    text-decoration: underline;
+}
+
+.menu nav ul li a:hover {
+    color: #0097d6;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .subheader {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        border-bottom: none;
+    }
+
+    .barra-menu {
+        display: block;
+        width: 100%;
+        background: #0097d6;
+        color: #fff;
+        padding: 10px;
+        font-size: 15pt;
+        font-weight: lighter;
+        text-align: right;
+    }
+
+    .barra-menu span:hover {
+        cursor: pointer;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu2 {
+        width: 50%;
+        display: block;
+        background: #0097d6;
+        z-index: 100;
+        position: fixed;
+        right: 0;
+        top: 52px;
+    }
+
+    .menu2 nav ul {
+        width: 100%;
+    }
+
+    .menu2 nav ul li {
+        padding: 10px 10px;
+        list-style: none;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .menu2 nav ul li:hover {
+        background: #77c4e6
+    }
+    
+    .menu2 nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .menu2 nav ul li a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+}

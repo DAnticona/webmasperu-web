@@ -1,0 +1,561 @@
+.servicios {
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    background: #fff;
+}
+
+.servicios .portada {
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+.servicios .portada img{
+    width: 100%;
+    opacity: .2;
+}
+
+.servicios .portada .titulo {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 7px;
+}
+
+/* SERVICIO WEB */
+.servicios .web {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicios .web .texto {
+    width: 50%;
+}
+
+.servicios .web .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.servicios .web .texto p {
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+.servicios .web .imagen {
+    width: 50%;
+    text-align: right;
+}
+
+.servicios .web .imagen img {
+    width: 300px;
+}
+
+/* FRASES 1*/
+
+.frase1 {
+    width: 100%;
+    text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    background: #0097d6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* SERVICIO ERP */
+.servicios .erp {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicios .erp .imagen {
+    width: 50%;
+    text-align: left;
+}
+
+.servicios .erp .imagen img {
+    width: 300px;
+}
+
+.servicios .erp .texto {
+    width: 50%;
+}
+
+.servicios .erp .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.servicios .erp .texto p {
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+.servicios .erp .texto ul {
+    text-align: justify;
+    font-weight: normal;
+    font-size: 14pt;
+    margin-left: 50px;
+}
+
+/* FRASE 2 */
+.frase2 {
+    width: 100%;
+    text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    background: #375e7c;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* SERVICIO CORREO */
+.servicios .correo {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicios .correo .texto {
+    width: 50%;
+}
+
+.servicios .correo .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.servicios .correo .texto p {
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+.servicios .correo .imagen {
+    width: 50%;
+    text-align: right;
+}
+
+.servicios .correo .imagen img {
+    width: 300px;
+}
+
+/* FRASE 3 */
+.frase3 {
+    width: 100%;
+    text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    background: #15489b;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* SERVICIO DOMINIO Y HOSTING */
+.servicios .hosting {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicios .hosting .imagen {
+    width: 50%;
+    text-align: left;
+}
+
+.servicios .hosting .imagen img {
+    width: 300px;
+}
+
+.servicios .hosting .texto {
+    width: 50%;
+}
+
+.servicios .hosting .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.servicios .hosting .texto p {
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+/* FRASE 4 */
+.frase4 {
+    width: 100%;
+    text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    background: #336699;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* SERVICIO INFRAESTRUCTURA */
+.servicios .infraestructura {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicios .infraestructura .texto {
+    width: 50%;
+}
+
+.servicios .infraestructura .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.servicios .infraestructura .texto p {
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+.servicios .infraestructura .texto ul {
+    text-align: justify;
+    font-weight: normal;
+    margin-left: 50px;
+    font-size: 14pt;
+}
+
+.servicios .infraestructura .imagen {
+    width: 50%;
+    text-align: right;
+}
+
+.servicios .infraestructura .imagen img {
+    width: 300px;
+}
+
+/* FRASE 5 */
+.frase5 {
+    width: 100%;
+    text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    background: #2935a3;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* SERVICIO CONSULTORÍA EN TI */
+.servicios .consultoria {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    color: #002144;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicios .consultoria .imagen {
+    width: 50%;
+    text-align: left;
+}
+
+.servicios .consultoria .imagen img {
+    width: 300px;
+}
+
+.servicios .consultoria .texto {
+    width: 50%;
+}
+
+.servicios .consultoria .texto h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.servicios .consultoria .texto p {
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+.servicios .contactanos {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 40px;
+    background: #002144;
+    border-radius: 20px;
+
+}
+
+.servicios .contactanos:hover {
+    background: #15489b;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+    /* SERVICIO WEB */
+    .servicios .web {
+        width: 90%;
+    }
+
+    .servicios .web .texto h4 {
+        font-size: 16pt;
+    }
+
+    .servicios .web .texto p {
+        font-size: 12pt;
+    }
+
+    /* FRASES 1*/
+    .servicios .frase h1 {
+        font-size: 18pt;
+    }
+
+    /* SERVICIO ERP */
+    .servicios .erp {
+        width: 90%;
+    }
+    
+    .servicios .erp .texto h4 {
+        font-size: 16pt;
+    }
+    
+    .servicios .erp .texto p {
+        font-size: 12pt;
+    }
+
+    .servicios .erp .texto ul {
+        font-size: 12pt;
+    }
+
+    /* SERVICIO CORREO */
+    .servicios .correo {
+        width: 90%;
+    }
+        
+    .servicios .correo .texto h4 {
+        font-size: 16pt;
+    }
+        
+    .servicios .correo .texto p {
+        font-size: 12pt;
+    }
+
+    /* SERVICIO HOSTING */
+    .servicios .hosting {
+        width: 90%;
+    }
+            
+    .servicios .hosting .texto h4 {
+        font-size: 16pt;
+    }
+            
+    .servicios .hosting .texto p {
+        font-size: 12pt;
+    }
+
+    /* SERVICIO INFRAESTRUCTURA */
+    .servicios .infraestructura {
+        width: 90%;
+    }
+            
+    .servicios .infraestructura .texto h4 {
+        font-size: 16pt;
+    }
+            
+    .servicios .infraestructura .texto p {
+        font-size: 12pt;
+    }
+
+    .servicios .infraestructura .texto ul {
+        font-size: 12pt;
+    }
+
+    /* SERVICIO CONSULTORIA */
+    .servicios .consultoria {
+        width: 90%;
+    }
+            
+    .servicios .consultoria .texto h4 {
+        font-size: 16pt;
+    }
+            
+    .servicios .consultoria .texto p {
+        font-size: 12pt;
+    }
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+    /* SERVICIO WEB */
+    .servicios .web {
+        display: block;
+    }
+
+    .servicios .web .texto {
+        width: 100%;
+    }
+
+    .servicios .web .imagen {
+        width: 100%;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .servicios .web .imagen img {
+        width: 200px;
+    }
+
+    /* FRASES */
+    .servicios .frase h1 {
+        font-size: 16pt;
+    }
+
+    /* SERVICIO ERP */
+    .servicios .erp {
+        display: block;
+    }
+
+    .servicios .erp .texto {
+        width: 100%;
+    }
+
+    .servicios .erp .imagen {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .servicios .erp .imagen img {
+        width: 200px;
+    }
+
+    /* SERVICIO CORREO */
+    .servicios .correo {
+        display: block;
+    }
+
+    .servicios .correo .texto {
+        width: 100%;
+    }
+
+    .servicios .correo .imagen {
+        width: 100%;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .servicios .correo .imagen img {
+        width: 200px;
+    }
+
+    /* SERVICIO HOSTING */
+    .servicios .hosting {
+        display: block;
+    }
+
+    .servicios .hosting .texto {
+        width: 100%;
+    }
+
+    .servicios .hosting .imagen {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .servicios .hosting .imagen img {
+        width: 200px;
+    }
+
+    /* SERVICIO INFRAESTRUCTURA */
+    .servicios .infraestructura {
+        display: block;
+    }
+
+    .servicios .infraestructura .texto {
+        width: 100%;
+    }
+
+    .servicios .infraestructura .imagen {
+        width: 100%;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .servicios .infraestructura .imagen img {
+        width: 200px;
+    }
+
+    /* SERVICIO CONSULTORIA */
+    .servicios .consultoria {
+        display: block;
+    }
+
+    .servicios .consultoria .texto {
+        width: 100%;
+    }
+
+    .servicios .consultoria .imagen {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .servicios .consultoria .imagen img {
+        width: 200px;
+    }
+}

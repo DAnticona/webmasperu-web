@@ -1,0 +1,108 @@
+
+  <div class="contacto-inicio">
+
+      <h4>Contáctanos</h4>
+  
+      <div class="contacto-inicio-txt">
+  
+        <div class="formulario">
+  
+          <form [formGroup]="contactoForm" (ngSubmit)="onSubmit()">
+  
+            <!-- ALERTA DE ENVIO EXITOSO -->
+            <div *ngIf="submitted">
+              <div class="alert alert-success" role="alert">
+                Gracias por confiar en nosotros!
+              </div>
+            </div>
+  
+            <div class="form-group">
+  
+              <label for="nombre" class="etiqueta">Nombre</label>
+              <input type="text" class="form-control nombre" id="nombre" name="nombre" formControlName="nombre" placeholder="Juan Pérez" required/>
+  
+              <!-- ALERTA DEL NOMBRE VALIDO -->
+              <div *ngIf="nombre.invalid && (nombre.dirty || nombre.touched)" class="alert alert-danger">
+                <div *ngIf="nombre.errors.required">
+                  Su nombre es requerido.
+                </div>
+              </div>
+                
+            </div>
+  
+            <div class="form-group">
+  
+              <label for="correo" class="etiqueta">Correo Electrónico</label>
+              <input type="email" class="form-control correo" id="correo" name="correo" formControlName="correo" aria-describedby="correoayuda" placeholder="jperez@dominio.com" required />
+  
+              <!-- ALERTA DE CORREO VALIDO -->
+              <div *ngIf="correo.invalid && (correo.dirty || correo.touched)" class="alert alert-danger">
+                <div *ngIf="correo.errors.required">
+                  Su correo electrónico es requerido.
+                </div>
+                <div *ngIf="correo.errors.email">
+                  Ingrese un correo electrónico válido.
+                </div>
+              </div>
+  
+              <small id="correoayuda" class="form-text text-muted">No compartiremos tu correo electrónico con terceros</small>
+            
+            </div>
+  
+            <div class="form-group">
+  
+              <label for="telefono">Teléfono</label>
+              <input type="text" class="form-control telefono" id="telefono" name="telefono" formControlName="telefono" aria-describedby="telefonoayuda" placeholder="999555777">
+              <small id="telefonoayuda" class="form-text text-muted">No compartiremos tu teléfono con terceros</small>
+              
+            </div>
+  
+            <div class="form-group">
+  
+              <label for="mensaje" class="etiqueta">Mensaje</label>
+              <textarea class="form-control mensaje" id="mensaje" name="mensaje" formControlName="mensaje" placeholder="Escriba aquí su mensaje" rows="3" required></textarea>
+  
+              <!-- ALERTA DE MENSAJE VALIDO -->
+              <div *ngIf="mensaje.invalid && (mensaje.dirty || mensaje.touched)" class="alert alert-danger">
+                <div *ngIf="mensaje.errors.required">
+                  El mensaje es requerido.
+                </div>
+              </div>
+  
+            </div>
+  
+            <button type="submit" class="btn btn-primary boton" [disabled]="!contactoForm.valid">Enviar</button>
+  
+          </form>
+  
+        </div>
+  
+        <div class="datos">
+  
+          <div class="contacto">
+  
+            <ul>
+              <li><span class="icon-phone"></span>989077909</li>
+              <li><span class="icon-envelope"></span><a href="mailto:ventas@webmas.pe">ventas@webmas.pe</a></li>
+              <li><span class="icon-home"></span>Jr. Victor Larco Herrera 618 Dpto A - Magdalena del Mar</li>
+            </ul>
+  
+            <span><a href="http://facebook.com/webmasperu" class="icon-facebook"></a></span>
+            <span><a href="http://instagram.com/webmasperu" class="icon-instagram"></a></span>
+            <span><a href="http://linkedin.com/company/webmasperu" class="icon-linkedin"></a></span>
+  
+          </div>
+  
+          <div class="contenedor-mapa">
+  
+            <agm-map [latitude]="lat" [longitude]="lon" class="mapa" [zoom]="zoom">  
+              <agm-marker [latitude]="lat" [longitude]="lon"></agm-marker>
+            </agm-map>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </div>

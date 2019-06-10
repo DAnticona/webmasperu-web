@@ -1,0 +1,37 @@
+<header class="header" (window:resize)="onResize($event)" [@header]="header">
+  <div class="barra-menu">
+
+    <span class="icon-menu" (click) = 'menu()'></span>
+
+  </div>
+
+  <div class="subheader">
+
+    <div class="item-subheader menu">
+      <nav>
+        <ul>
+          <li><a routerLink="/inicio" routerLinkActive="active">Inicio</a></li>
+          <li><a routerLink="/nosotros" routerLinkActive="active">Nosotros</a></li>
+          <li><a routerLink="/servicios" routerLinkActive="active">Servicios</a></li>
+          <li><a routerLink="/contacto" routerLinkActive="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="item-subheader menu2" [@menuBar] = "showMenu ? 'show' : 'hidden'">
+      <nav>
+        <ul>
+          <li><a routerLink="/inicio" routerLinkActive="active" (click)="menu()">Inicio</a></li>
+          <li><a routerLink="/nosotros" routerLinkActive="active" (click)="menu()">Nosotros</a></li>
+          <li><a routerLink="/servicios" routerLinkActive="active" (click)="menu()">Servicios</a></li>
+          <li><a routerLink="/contacto" routerLinkActive="active" (click)="menu()">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="item-subheader logo">
+      <img src="../../assets/imagenes/Logo.svg">
+    </div>
+
+  </div>
+</header>
